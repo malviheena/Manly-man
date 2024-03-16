@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <script>
+    $(window).scroll(function () {
+      var sticky = $('#navbar'),
+        scroll = $(window).scrollTop();
+
+      if (scroll >= 100) sticky.addClass('fixed');
+      else sticky.removeClass('fixed');
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 p-0">
+        <nav class="navbar navbar-expand-lg fixed-top " id="navbar">
+          <a class="navbar-brand" href="#"><img src="text-1707905053807.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-dark navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#SERVICES" style="color:floralwhite;    font-family: serif;">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#PRODUCTS" style="color:floralwhite; font-family: serif;">PRODUCTS</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " href="#ABOUT" style="color:floralwhite; font-family: serif;">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#CONTACT" style="color:floralwhite; font-family: serif;">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+<div class="main_hero">
+    <!-- <p class=" welcome">WELCOME
+    </p> -->
+  </div>
+  <DIV id="SERVICES"></DIV>
+  <div class="serv">
+    <h1 class="text-center fw-bold">SERVICES</h1>
+    <p class="text-center fs-6">A Solution for every need</p>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4  col-12 text-center">
+          <img src="shop.jpg" class="img2 mb-4 img-fluid">
+          <h3 class="mb-3">ECOMMERCE</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
+            ex magni, dicta impedit.</p><br><br><br>
+        </div>
+        <div class="col-lg-4 col-12 text-center">
+          <img src="web.jpg" class="img2 mb-4 img-fluid">
+          <h3 class="mb-3">TRUSTED</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
+            ex magni, dicta impedit.</p><br><br><br>
+        </div>
+        <div class="col-lg-4  col-12 text-center">
+          <img src="del.jpg" class="img2 mb-4 img-fluid">
+          <h3 class="mb-3">DELIVERY</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum
+            ex magni, dicta impedit.</p><br><br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="PRODUCTS"></div>
+  <div class="pro">
+ 
+    <BR>
+   
+    <BR>
+    <h1 class="text-center fw-bold">PRODUCTS</h1>
+    <p class="text-center fs-6">You + [Manly Man] = the perfect match.</p>
+    <br><br>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="hovereffects">
+            <img src="shoes.jpg" height="300px" width="100%" alt="images" class="img-fluid">
+            <div class="overlay">
+              <h2 class="text-warning">
+                 Men's Shoe
+              </h2>
+              <img src="search.png" class="search img-fluid ">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="hovereffects">
+            <img src="perfume.jpg" height="300px" width="100%" alt="images" class="img-fluid">
+            <div class="overlay">
+              <h2 class="text-warning">
+                EM5™  Perfume
+              </h2> <img src="search.png " class="search img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="hovereffects">
+            <img src="face.jpg" height="300px" width="100%" alt="images" class="img-fluid">
+            <div class="overlay">
+              <h2 class="text-warning">
+                 Face Cream
+              </h2> <img src="search.png" class="search img-fluid ">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="hovereffects">
+            <img src="purse.jpg" height="300px" width="100%" alt="images" class="img-fluid">
+            <div class="overlay">
+              <h2 class="text-warning">
+                Men's Wallet
+              </h2> <img src="search.png" class="search img-fluid ">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12 text-center">
+          <div class="hovereffects">
+            <img src="GROOM.jpg" height="300px" width="100%" alt="images" class="img-fluid">
+            <div class="overlay">
+              <h2 class="text-warning">
+               Men's belt
+              </h2> <img src="search.png" class="search img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-12">
+          <div class="hovereffects">
+            <img src="glass.jpg" height="300px" width="100%" class="img-fluid">
+            <div class="overlay">
+              <h2 class="text-warning">
+                Lenskart Blu
+              </h2> <img src="search.png" class="search img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <DIV id="ABOUT"></DIV>
+    <br><br>
+    <br>
+    <br>
+    <br>
+
+    <h1 class="text-center fw-bold">ABOUT</h1>
+    <p class="text-center fs-6">vidis litro abertis</p>
+    <ul class="timeline">
+      <li>
+        <div class="timeline-badge danger"> <i class="glyphicon glyphicon-check"></i></div>
+        <div class="timeline-panel  slideInLeft">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum quem é amistosis qdis i pareci latiis.</p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+        <div class="timeline-panel slideInRight">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipi</p>
+          </div>
+      </li>
+      <li>
+        <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+          </div>
+          <div class="timeline-body">
+            <p>Mussum ipsum ca</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="background">
+    <DIV ID="CONTACT"></DIV>
+    <div class="container"><img src="boy.png" class="img3">
+      <div class="screen">
+        <div class="screen-body">
+          <div class="screen-body-item left">
+            <div class="app-title">
+              <span>GET</span>
+              <span>IN-TOUCH</span>
+            </div>
+            <div class="app-contact">CUSTOMER-CARE : +62 81 314 928 595</div>
+          </div>
+          <div class="screen-body-item">
+            <div class="app-form">
+              <div class="app-form-group">
+                <input class="app-form-control" placeholder="NAME">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control" placeholder="EMAIL">
+              </div>
+              <div class="app-form-group">
+                <input class="app-form-control" placeholder="CONTACT NO">
+              </div>
+              <div class="app-form-group buttons">
+                <button class="app-form-button">SEND</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 150) {
+      $("#navbar").addClass("darkHeader");
+    } else {
+      $("#navbar").removeClass("darkHeader");
+    }
+  });
+  /**/
+  (function () { jQuery(function () { return $.jackInTheBox = function (a, b) { var c, d = this; return c = "", this.settings = {}, this.$element = $(a), this.getSetting = function (a) { return this.settings[a] }, this.callSettingFunction = function (a, b) { return null == b && (b = []), this.settings[a].apply(this, b) }, this.mobileDevice = function () { return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) }, this.visible = function (a) { var b, c, e, f; return f = d.$window.scrollTop(), e = f + d.$window.height() - d.settings.offset, c = a.offset().top, b = c + a.height(), e >= c && b >= f }, this.scrollHandler = function () { return d.$window.scroll(function () { return d.show() }) }, this.show = function () { return d.$boxes.each(function (a, b) { var c; return c = $(b), d.visible(c) ? c.css({ visibility: "visible" }).addClass(d.settings.animateClass) : void 0 }) }, this.init = function () { return this.settings = $.extend({}, this.defaults, b), this.$window = $(window), this.$boxes = $("." + this.settings.boxClass).css({ visibility: "hidden" }), this.$boxes.length ? (this.scrollHandler(), this.show()) : void 0 }, this.mobileDevice() || this.init(), this }, $.jackInTheBox.prototype.defaults = { boxClass: "box", animateClass: "animated", offset: 0 }, $.fn.jackInTheBox = function (a) { return this.each(function () { var b; return void 0 === $(this).data("jackInTheBox") ? (b = new $.jackInTheBox(this, a), $(this).data("jackInTheBox", b)) : void 0 }) } }) }).call(this);
+
+  $(function () {
+    $('body').jackInTheBox();
+  });
+  (function () { jQuery(function () { return $.jackInTheBox = function (a, b) { var c, d = this; return c = "", this.settings = {}, this.$element = $(a), this.getSetting = function (a) { return this.settings[a] }, this.callSettingFunction = function (a, b) { return null == b && (b = []), this.settings[a].apply(this, b) }, this.mobileDevice = function () { return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) }, this.visible = function (a) { var b, c, e, f; return f = d.$window.scrollTop(), e = f + d.$window.height() - d.settings.offset, c = a.offset().top, b = c + a.height(), e >= c && b >= f }, this.scrollHandler = function () { return d.$window.scroll(function () { return d.show() }) }, this.show = function () { return d.$boxes.each(function (a, b) { var c; return c = $(b), d.visible(c) ? c.css({ visibility: "visible" }).addClass(d.settings.animateClass) : void 0 }) }, this.init = function () { return this.settings = $.extend({}, this.defaults, b), this.$window = $(window), this.$boxes = $("." + this.settings.boxClass).css({ visibility: "hidden" }), this.$boxes.length ? (this.scrollHandler(), this.show()) : void 0 }, this.mobileDevice() || this.init(), this }, $.jackInTheBox.prototype.defaults = { boxClass: "box", animateClass: "animated", offset: 0 }, $.fn.jackInTheBox = function (a) { return this.each(function () { var b; return void 0 === $(this).data("jackInTheBox") ? (b = new $.jackInTheBox(this, a), $(this).data("jackInTheBox", b)) : void 0 }) } }) }).call(this);
+
+  $(function () {
+    $('body').jackInTheBox();
+  });
+
+
+
+
+</script>
+
+</html>
